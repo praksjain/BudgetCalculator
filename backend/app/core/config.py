@@ -32,10 +32,12 @@ class Settings(BaseSettings):
     OPENAI_TEMPERATURE: float = 0.3
     
     # Google Gemini API (FREE!)
-    GOOGLE_API_KEY: Optional[str] = "AIzaSyCsmPyvSuQxhV01O46dCbgjFe9rfMp_wQQ"
+    # GOOGLE_API_KEY: Optional[str] = "AIzaSyCsmPyvSuQxhV01O46dCbgjFe9rfMp_wQQ"
+    GOOGLE_API_KEY: Optional[str] = "your-key"
     
     # Hugging Face API (FREE Alternative!)
-    HUGGINGFACE_API_KEY: Optional[str] = "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"
+    # HUGGINGFACE_API_KEY: Optional[str] = "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"
+    HUGGINGFACE_API_KEY: Optional[str] = "your-key"
     
     class Config:
         case_sensitive = True
